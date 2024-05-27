@@ -1,0 +1,133 @@
+{
+  "token": {
+    "token": "string"
+  },
+  "sources": [
+    {
+      "id": "315391fa-9250-4a1a-9fe4-8e31ff8715bc",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "Диадок источник",
+      "login": "veasdfak@fasdn-it.ru",
+      "password": null,
+      "endpoint": "https://diadoc-api.kontur.ru",
+      "apiKey": "",
+      "type": 2,
+      "authenticateType": 4,
+      "status": "Normal",
+      "error": null,
+      "updated": "2024-05-20T09:08:13.387309+00:00"
+    },
+    {
+      "id": "d51839eb-1b83-4b2b-9e04-7c469b84e52c",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "IIKO SP",
+      "login": "asdfasdfasdf",
+      "password": null,
+      "endpoint": "https://asdfasdf:443/resto",
+      "apiKey": "",
+      "type": 1024,
+      "authenticateType": 4,
+      "status": "Normal",
+      "error": null,
+      "updated": "2024-04-22T11:02:02.409897+00:00"
+    },
+    {
+      "id": "16bec076-990e-4d12-9cf2-6b9606074ffd",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "Фнс",
+      "login": "",
+      "password": null,
+      "endpoint": "",
+      "apiKey": "",
+      "type": 512,
+      "authenticateType": 0,
+      "status": "Normal",
+      "error": null,
+      "updated": null
+    },
+    {
+      "id": "3004828b-bfcb-4fee-9b42-880ebf45c247",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "sbis",
+      "login": "4403256",
+      "password": null,
+      "endpoint": "https://online.sbis.ru",
+      "apiKey": "",
+      "type": 1,
+      "authenticateType": 4,
+      "status": "Error",
+      "error": "Response status code does not indicate success: 403 (Forbidden).",
+      "updated": null
+    },
+    {
+      "id": "1599baa9-8d24-4f6c-b7d0-e895ed2583b8",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "IIKO Fl",
+      "login": "admin",
+      "password": null,
+      "endpoint": "https://asdfasdfasdf:443/resto",
+      "apiKey": "",
+      "type": 1024,
+      "authenticateType": 4,
+      "status": "Normal",
+      "error": null,
+      "updated": "2024-04-22T11:02:03.993441+00:00"
+    },
+    {
+      "id": "213fefa5-baae-4db4-9fba-e7dcaa8f8ea8",
+      "company": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "sbis masha",
+      "login": "asdfasdfasdf",
+      "password": null,
+      "endpoint": "https://online.sbis.ru",
+      "apiKey": "",
+      "type": 1,
+      "authenticateType": 4,
+      "status": "Normal",
+      "error": null,
+      "updated": "2024-05-27T11:52:19.413141+00:00"
+    }
+  ],
+  "companies": [
+    {
+      "id": "3deaa325-a17b-484c-87b3-386b8a1b844f",
+      "name": "paodijfa;sldfkj",
+      "tin": " ",
+      "created": "2024-04-05T13:38:29.404463+00:00",
+      "updated": "2024-04-05T13:38:29.404463+00:00",
+      "version": 0
+    },
+    {
+      "id": "72e41036-3daa-4fc7-8d6c-87115e341d3b",
+      "name": "Компания 2",
+      "tin": " ",
+      "created": "2024-04-05T13:38:25.890195+00:00",
+      "updated": "2024-04-05T13:38:25.890195+00:00",
+      "version": 0
+    },
+    {
+      "id": "78ce80a6-3177-49bf-b856-3e690bdb02be",
+      "name": "Компания 1",
+      "tin": " ",
+      "created": "2024-04-05T13:38:21.287843+00:00",
+      "updated": "2024-04-05T13:38:21.287844+00:00",
+      "version": 0
+    },
+    {
+      "id": "cbaa1550-5974-43b4-bbe8-bb8595e721ea",
+      "name": "adfasdf IT",
+      "tin": " ",
+      "created": "2024-03-29T12:26:30.938776+00:00",
+      "updated": "2024-03-29T12:26:30.938876+00:00",
+      "version": 0
+    },
+    {
+      "id": "cc38f431-fb52-44e0-99e4-1291167c6fa4",
+      "name": "Компания 4",
+      "tin": " ",
+      "created": "2024-04-05T13:38:32.835609+00:00",
+      "updated": "2024-04-05T13:38:32.835609+00:00",
+      "version": 0
+    }
+  ]
+}

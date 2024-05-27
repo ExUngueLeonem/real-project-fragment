@@ -1,0 +1,1 @@
+export { SwitchTheme } from "./switchTheme/ui/switchTheme";

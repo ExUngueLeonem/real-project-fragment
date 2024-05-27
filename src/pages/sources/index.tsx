@@ -7,7 +7,7 @@ export function SourcesPage() {
   return (
     <>
       <SourcesProvider>
-        <PageWithHeading label={"Источники данных +"}>
+        <PageWithHeading label={"Источники данных"}>
           <Box w={"full"} p={"0 20px"}>
             <Box>
               <SourcesTable />

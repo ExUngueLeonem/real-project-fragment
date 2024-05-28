@@ -9,6 +9,7 @@ import { ISource } from "entities/sources";
 //module
 import { ISourceInputs } from "../../model/source_inputs";
 import { SourceInputGroup } from "./SourceInputGroup";
+import { useEffect } from "react";
 
 interface IProps {
   source: ISource | undefined;
@@ -52,8 +53,10 @@ export default function SourceFormPass(
         authenticateType:	4,
       }
   });
-  const { watch, formState } = Form;
+  const { watch, formState, reset } = Form;
   watch("type");
+
+  console.log("source", formState)
 
   const onSubmitHandler = (sourceInputs: ISourceInputs) => {
     //проверка что какие-то поля, кроме имени и пароля изменились
@@ -70,7 +73,9 @@ export default function SourceFormPass(
     onSubmit(sourceInputs, shouldFetchSource)
   }
 
-  // console.log("watch", watch())
+  useEffect(() => {
+    reset();
+  })
 
   return (
     <Box w={"full"}>

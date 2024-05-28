@@ -5,13 +5,13 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Provider as ReduxProvider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "store";
-import theme from "theme";
 import moment from "moment";
 
 import "moment/dist/locale/ru";
 import "app/main.scss";
 
 import { Defaults } from "shared/lib";
+import theme from "shared/theme";
 
 moment.locale("ru");
 moment.defaultFormat = Defaults.DateFormat;

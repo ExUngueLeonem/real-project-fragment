@@ -105,7 +105,7 @@ export function CustomInput(
       }
       {hasErrorIcon &&
         error?.message &&
-        <Tooltip label={"error?.message"}>
+        <Tooltip label={error && error?.message as string}>
           <Center
             w={"18px"}
             h={"18px"}

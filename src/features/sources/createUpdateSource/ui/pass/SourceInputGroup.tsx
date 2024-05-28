@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FieldValues, useFormContext, Validate } from "react-hook-form";
 import { Center, FormControl, FormLabel, Grid, Icon, InputRightElement, Select, Text } from "@chakra-ui/react";
 
@@ -25,7 +25,7 @@ export function SourceInputGroup(
     disabledFields
   }: IProps) {
   const { data: sources } = useGetSources();
-  const { register, getValues, reset } = useFormContext();
+  const { register, getValues } = useFormContext();
   const [isVisiblePassword, setIsVisiblePassword] = useState(false);
 
   //лейблы подтягиваются из appSettings
@@ -37,10 +37,6 @@ export function SourceInputGroup(
 
     { value: 3, disabled: true },
   ];
-
-  useEffect(() => {
-    reset()
-  }, [reset])
 
   //указывает, тип формы, входящий источник, или исходящий
   if (direction === "to") {
